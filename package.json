@@ -9,11 +9,12 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
+    "framer-motion": "^12.26.2",
     "next": "latest",
     "next-themes": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-rough-notation": "^1.0.1"
+    "react-rough-notation": "^1.0.8"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",

@@ -18,6 +18,11 @@ const userData = {
       imgUrl: "/mystrymessage.png",
     },
     {
+      title: "Portfolio Website",
+      link: "https://github.com/sumittt45/sumit-portfolio",
+      imgUrl: "/portfolioSumit.png",
+    },
+    {
       title: "Currency Converter",
       link: "https://github.com/sumittt45/currency-converter",
       imgUrl: "/currencyconverter.png",
@@ -41,28 +46,28 @@ const userData = {
     ],
 
   },
-  education : [
-    // {
-    //   title: "Data Analyst Intern",
-    //   company: "Deloitte (Virtual Internship)",
-    //   year: "2024",
-    //   companyLink: "https://www2.deloitte.com",
-    //   desc: "Worked on understanding real-world business problems and software development workflows through Deloitte’s virtual internship program.",
-    // },
+  // education: [
+  //   {
+  //     title: "Data Analyst Intern",
+  //     company: "Deloitte (Virtual Internship)",
+  //     year: "2024",
+  //     companyLink: "https://www2.deloitte.com",
+  //     desc: "Worked on understanding real-world business problems and software development workflows through Deloitte’s virtual internship program.",
+  //   },
 
-    {
-      title: "Graduation (B.Tech - IT)",
-      company: "Oriental College of Technology, Bhopal.",
-      year: "2026",
-      desc: "Major in Computer Science and Engineering with a CGPA of 7.63 . Relevant coursework: Data Structures, Algorithms, Database Management, Web Development, and Software Engineering.",
-    },
-    {
-      title: "High School",
-      company: "Govt. Higher Secondary School, Dungariya.",
-      year: "2022",
-      desc: "Completed Higher Secondary Education (Class XII) with an overall percentage of 85.6%.",
-    },
-  ],
+  //   {
+  //     title: "Graduation (B.Tech - IT)",
+  //     company: "Oriental College of Technology, Bhopal.",
+  //     year: "2026",
+  //     desc: "Major in Computer Science and Engineering with a CGPA of 7.63 . Relevant coursework: Data Structures, Algorithms, Database Management, Web Development, and Software Engineering.",
+  //   },
+  //   {
+  //     title: "High School",
+  //     company: "Govt. Higher Secondary School, Dungariya.",
+  //     year: "2022",
+  //     desc: "Completed Higher Secondary Education (Class XII) with an overall percentage of 85.6%.",
+  //   },
+  // ],
   resumeUrl:
     "https://drive.google.com/file/d/1fP4_wIoRRTu5x5VqZl9D7yXe-YQ1Zpd6/view?usp=sharing",
   socialLinks: {

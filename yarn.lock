@@ -282,6 +282,15 @@ fraction.js@^4.2.0:
   resolved "https://registry.npmjs.org/fraction.js/-/fraction.js-4.2.0.tgz"
   integrity sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==
 
+framer-motion@^12.26.2:
+  version "12.26.2"
+  resolved "https://registry.npmjs.org/framer-motion/-/framer-motion-12.26.2.tgz"
+  integrity sha512-lflOQEdjquUi9sCg5Y1LrsZDlsjrHw7m0T9Yedvnk7Bnhqfkc89/Uha10J3CFhkL+TCZVCRw9eUGyM/lyYhXQA==
+  dependencies:
+    motion-dom "^12.26.2"
+    motion-utils "^12.24.10"
+    tslib "^2.4.0"
+
 fsevents@~2.3.2:
   version "2.3.2"
   resolved "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
@@ -385,6 +394,18 @@ minimist@^1.2.6:
   version "1.2.7"
   resolved "https://registry.npmjs.org/minimist/-/minimist-1.2.7.tgz"
   integrity sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==
+
+motion-dom@^12.26.2:
+  version "12.26.2"
+  resolved "https://registry.npmjs.org/motion-dom/-/motion-dom-12.26.2.tgz"
+  integrity sha512-KLMT1BroY8oKNeliA3JMNJ+nbCIsTKg6hJpDb4jtRAJ7nCKnnpg/LTq/NGqG90Limitz3kdAnAVXecdFVGlWTw==
+  dependencies:
+    motion-utils "^12.24.10"
+
+motion-utils@^12.24.10:
+  version "12.24.10"
+  resolved "https://registry.npmjs.org/motion-utils/-/motion-utils-12.24.10.tgz"
+  integrity sha512-x5TFgkCIP4pPsRLpKoI86jv/q8t8FQOiM/0E8QKBzfMozWHfkKap2gA1hOki+B5g3IsBNpxbUnfOum1+dgvYww==
 
 nanoid@^3.3.4:
   version "3.3.4"
@@ -542,12 +563,12 @@ react-dom@18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-rough-notation@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/react-rough-notation/-/react-rough-notation-1.0.1.tgz"
-  integrity sha512-UZQZ09XiZgbDRZFFP0qaFmTzs0rMKO929Npa5fHb2TOzLvKNEamaUtjRwjBx79cFzf+xMl/y8Y4HbYvvcKHQGQ==
+react-rough-notation@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.npmjs.org/react-rough-notation/-/react-rough-notation-1.0.8.tgz"
+  integrity sha512-ClreTCYNGVvjFKN4gvr3kuBAdA2WP+4B0mIdC7UDmek2n6FzUGColDMqhb142XZl69nlPGYfztivHLs5Un3KoA==
   dependencies:
-    rough-notation "^0.4.0"
+    rough-notation "^0.5.1"
 
 react@18.2.0:
   version "18.2.0"
@@ -584,10 +605,10 @@ reusify@^1.0.4:
   resolved "https://registry.npmjs.org/reusify/-/reusify-1.0.4.tgz"
   integrity sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==
 
-rough-notation@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.npmjs.org/rough-notation/-/rough-notation-0.4.0.tgz"
-  integrity sha512-hDgn9qMIxWnfY+WWjt30aLMtDHR13H8r/NI3EQNdJiEFAzpklH5nKg4eH/thpxCWTYzyg8ueMsKIfz9MzOBQ4Q==
+rough-notation@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.npmjs.org/rough-notation/-/rough-notation-0.5.1.tgz"
+  integrity sha512-ITHofTzm13cWFVfoGsh/4c/k2Mg8geKgBCwex71UZLnNuw403tCRjYPQ68jSAd37DMbZIePXPjDgY0XdZi9HPw==
 
 run-parallel@^1.1.9:
   version "1.2.0"

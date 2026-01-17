@@ -14,6 +14,31 @@ export default function Navbar() {
     setMounted(true);
   }, []);
 
+  const NavItem = ({ href, label }) => {
+    const isActive = router.asPath === href;
+
+  return (
+      <Link href={href} className="relative px-3 py-1">
+        {isActive && (
+          <motion.span
+            layoutId="nav-highlight"
+            className="absolute inset-0 rounded-md bg-gray-200/70 dark:bg-gray-700/70"
+            transition={{ type: "spring", stiffness: 300, damping: 30 }}
+          />
+        )}
+        <span
+          className={`relative z-10 text-base ${
+            isActive
+              ? "font-bold text-gray-800 dark:text-gray-200"
+              : "font-normal text-gray-600 dark:text-gray-300"
+          }`}
+        >
+          {label}
+        </span>
+      </Link>
+    );
+  };
+
   return (
     <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
       <div className="flex  md:flex-row justify-between items-center">
@@ -79,31 +104,7 @@ export default function Navbar() {
               </svg>
             )}
           </Link>
-          <Link
-            href="/education"
-            className={`text-base  ${
-              router.asPath === "/education"
-                ? "text-gray-800 font-bold dark:text-gray-400"
-                : "text-gray-600 dark:text-gray-300 font-normal "
-            }`}
-          >
-            Education{" "}
-            {router.asPath === "/education" && (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                className="bi bi-arrow-down inline-block h-3 w-3"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
-                />
-              </svg>
-            )}
-          </Link>
+          
           <Link
             href="/contact"
             className={`text-base  ${
